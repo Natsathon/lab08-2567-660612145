@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function TaskInput() {
+export default function Taskinput() {
   return (
     <div className="d-flex gap-1">
     <input
