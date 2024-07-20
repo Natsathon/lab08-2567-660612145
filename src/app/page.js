@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import TaskInput from "./components/TaskInput";
+import Taskinput from "./components/Taskinput";
 import Task from "./components/Task";
 export default function Home() {
 
@@ -19,7 +19,7 @@ export default function Home() {
        {/* tasks container */}
       <div style={{ maxWidth: "400px" }} className="mx-auto">
         {/* task input */}
-      <TaskInput />
+      <Taskinput />
         {/* task detail*/}
         <Task {...tasks[0]}/>
         <Task {...tasks[1]}/>
