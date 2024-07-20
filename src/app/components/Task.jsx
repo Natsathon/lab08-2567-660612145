@@ -1,12 +1,13 @@
 import React from 'react'
 
-export default function Task({title , isDone}) {
-  return (
-    <div className="d-flex p-3 gap-2 align-items-center border-bottom">
-        <span className={isDone ? "text-decoration-line-through" : "" }>{title}</span>
-        <button className="btn btn-success">Done</button>
-        <button className="btn btn-danger">Delete</button>
-
-    </div>
-  );
-}
+export default function Task(props) {
+    return (
+        <div style={{ maxWidth: "400px" }} className="mx-auto">
+            <div className="d-flex p-3 gap-2 align-items-center border-bottom">
+              <span style={{textDecoration:props.isDone ? 'line-through' : 'none'}}>{props.title}</span>
+              <button className="btn btn-success">Done</button>
+              <button className="btn btn-danger">Delete</button>
+            </div>
+        </div>
+      )
+    }
