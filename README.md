@@ -6,7 +6,7 @@
 
 ชื่อ-สกุล : อภิชา เลิศจินคนากิจ
 
-Vercel URL :lab08-2567-660612162.vercel.app
+Vercel URL :https://lab08-2567-660612162.vercel.app/
 
 ---
 
