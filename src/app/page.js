@@ -1,8 +1,7 @@
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import Task from "@/components/Task";
-import TaskInput from "@/components/TaskInput";
-
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import TaskInput from "./components/TaskInput";
+import Task from "./components/Task";
 export default function Home() {
 
   const tasks = [
@@ -10,7 +9,7 @@ export default function Home() {
     {id:2, title:"Take a shower", isDone:false},
     {id:3, title:"Sleep", isDone:false},
   ];
-
+ 
   return (
     // Main container
     <div className="container mx-auto">
